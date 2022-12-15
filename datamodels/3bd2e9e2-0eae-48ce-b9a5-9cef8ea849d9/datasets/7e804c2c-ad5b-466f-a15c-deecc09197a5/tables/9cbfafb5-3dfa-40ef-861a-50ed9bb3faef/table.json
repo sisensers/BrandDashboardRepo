@@ -1,0 +1,43 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Brand",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Brand",
+            "oid": "0c18ae5d-ea7f-4f0b-b546-9d5f41fa32d4",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Brand ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Brand ID",
+            "oid": "43957993-fed6-4187-b905-f4c3ce73192e",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "Table": "Brand.csv"
+    },
+    "dataset": "7e804c2c-ad5b-466f-a15c-deecc09197a5",
+    "hidden": false,
+    "id": "Brand.csv",
+    "isMaterialized": false,
+    "name": "Brand",
+    "oid": "9cbfafb5-3dfa-40ef-861a-50ed9bb3faef",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,286 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "continuousDates": false,
+    "dashboardid": "6161af2cddaad4002bed391e",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aGitIAAaLQAaIAAaECommerce",
+        "fullname": "localhost/Git - ECommerce",
+        "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+        "live": false,
+        "title": "Git - ECommerce"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": false,
+        "displayFilterPane": true,
+        "displayHeaderRow": false,
+        "displayToolbarRow": false,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": false,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": true,
+        "modalWindowResize": true,
+        "resetDashFiltersAfterJTD": true,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": true
+    },
+    "hasExcessiveSeries": false,
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "format": {
+                            "continuous": false
+                        },
+                        "instanceid": "CED4A-F6EF-02",
+                        "jaql": {
+                            "column": "Country",
+                            "datatype": "text",
+                            "dim": "[Country.Country]",
+                            "merged": true,
+                            "table": "Country",
+                            "title": "Country"
+                        }
+                    }
+                ],
+                "name": "categories"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "color": "#1F487E",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "6273A-3D6D-38",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Revenue",
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Revenue]",
+                            "sort": "desc",
+                            "table": "Commerce",
+                            "title": "Total Revenue"
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "break by"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "800B5-E05C-B5",
+                        "jaql": {
+                            "agg": "sum",
+                            "collapsed": false,
+                            "column": "Revenue",
+                            "datasource": {
+                                "address": "LocalHost",
+                                "database": "aGitIAAaLQAaIAAaECommerce",
+                                "fullname": "localhost/Git - ECommerce",
+                                "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+                                "live": false,
+                                "title": "Git - ECommerce"
+                            },
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Revenue]",
+                            "filter": {
+                                "top": 10
+                            },
+                            "sort": "desc",
+                            "table": "Commerce",
+                            "title": "Total Revenue"
+                        }
+                    }
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "nullAsZero": false,
+    "oid": "6161bf6eddaad4002bed3958",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+            "max": 9,
+            "min": 0
+        },
+        "selector": true,
+        "triggersDomready": true
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "dataLimits": {
+            "categoriesCapacity": 100000,
+            "seriesCapacity": 50
+        },
+        "legend": {
+            "enabled": true,
+            "position": "bottom"
+        },
+        "lineWidth": {
+            "width": "bold"
+        },
+        "markers": {
+            "enabled": false,
+            "fill": "filled",
+            "size": "small"
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "country",
+                    "plural": "Country",
+                    "singular": "Country",
+                    "title": "Country"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "navigator": {
+            "enabled": true
+        },
+        "seriesLabels": {
+            "enabled": false,
+            "labels": {
+                "enabled": false,
+                "stacked": false,
+                "stackedPercentage": false,
+                "types": {
+                    "count": false,
+                    "percentage": false,
+                    "relative": false,
+                    "totals": false
+                }
+            },
+            "rotation": 0
+        },
+        "xAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "isIntervalEnabled": false,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "ticks": true,
+            "title": {
+                "enabled": false
+            },
+            "x2Title": {
+                "enabled": false
+            }
+        },
+        "y2Axis": {
+            "enabled": true,
+            "gridLines": false,
+            "hideMinMax": false,
+            "inactive": true,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        },
+        "yAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "hideMinMax": false,
+            "inactive": false,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        }
+    },
+    "subtype": "bar/classic",
+    "title": "Revenue by Country",
+    "type": "chart/bar"
+}

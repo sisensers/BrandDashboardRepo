@@ -1,0 +1,70 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aGitIAAaLQAaIAAaECommerce",
+        "fullname": "localhost/Git - ECommerce",
+        "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+        "live": false,
+        "title": "Git - ECommerce"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "filtersToRestore": null,
+    "hiddenForNonOwner": false,
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "6161af2cddaad4002bed391e",
+    "openFromJTD": null,
+    "script": "./script.js",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "_id": "633b535e35d8f20037745935",
+            "colors": [
+                "#1F487E",
+                "#AF3B6E",
+                "#EEB868",
+                "#49977F",
+                "#4F5451"
+            ],
+            "isDefault": true,
+            "name": "October",
+            "sortOrder": 0
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "6161af2cddaad4002bed391e"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2021-10-19",
+        "subscribe": false,
+        "timezone": 0,
+        "type": "onUpdate",
+        "tzName": "Europe/London"
+    },
+    "title": "Git - Brand Dashboard",
+    "widgets": [
+        "./widgets/6161af4bddaad4002bed3921/widget.json",
+        "./widgets/6161bef6ddaad4002bed3953/widget.json",
+        "./widgets/6161bf6eddaad4002bed3958/widget.json",
+        "./widgets/6161bfeaddaad4002bed395c/widget.json",
+        "./widgets/6161c00addaad4002bed395e/widget.json"
+    ]
+}

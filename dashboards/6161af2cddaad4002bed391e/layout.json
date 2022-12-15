@@ -1,0 +1,132 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": "150px",
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "6161bfeaddaad4002bed395c"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 403.141,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": "150px",
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "6161c00addaad4002bed395e"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 403.141,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "autoHeight": "670px",
+                                        "defaultWidth": 512,
+                                        "height": "400px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 128,
+                                        "minWidth": 128,
+                                        "widgetid": "6161bef6ddaad4002bed3953"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 403.141,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    }
+                ],
+                "index": 0,
+                "pxlWidth": 403.141,
+                "width": 32.96432964329643
+            },
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": "332px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "6161af4bddaad4002bed3921"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 819.844,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": "400px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "6161bf6eddaad4002bed3958"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 819.844,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    }
+                ],
+                "index": 1,
+                "pxlWidth": 819.844,
+                "width": 67.03567035670358
+            }
+        ],
+        "container": {
+        },
+        "instanceid": "90D29-7AE7-A4",
+        "type": "columnar"
+    },
+    "previewLayout": [
+    ]
+}

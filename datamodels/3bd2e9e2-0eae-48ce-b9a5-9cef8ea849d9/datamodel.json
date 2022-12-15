@@ -1,0 +1,21 @@
+{
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./689959f1-987e-455e-9dd9-4b54b0712475/dataset.json",
+        "./7e804c2c-ad5b-466f-a15c-deecc09197a5/dataset.json",
+        "./9519c242-ba3c-42a4-bdab-6b21ea8519c4/dataset.json",
+        "./ce822e95-d5fe-457c-a5df-dee863561d3e/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "oid": "3bd2e9e2-0eae-48ce-b9a5-9cef8ea849d9",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "title": "Git - ECommerce",
+    "type": "extract"
+}

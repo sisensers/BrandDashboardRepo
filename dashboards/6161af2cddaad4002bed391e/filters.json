@@ -1,0 +1,61 @@
+{
+    "filters": [
+        {
+            "disabled": false,
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Date",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGitIAAaLQAaIAAaECommerce",
+                    "fullname": "localhost/Git - ECommerce",
+                    "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+                    "live": false,
+                    "title": "Git - ECommerce"
+                },
+                "datatype": "datetime",
+                "dim": "[Commerce.Date (Calendar)]",
+                "filter": {
+                    "to": "2021-10-10"
+                },
+                "isDashboardFilter": true,
+                "level": "days",
+                "merged": true,
+                "panel": "scope",
+                "table": "Commerce",
+                "title": "Days in Date"
+            }
+        },
+        {
+            "disabled": false,
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Brand",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGitIAAaLQAaIAAaECommerce",
+                    "fullname": "localhost/Git - ECommerce",
+                    "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+                    "live": false,
+                    "title": "Git - ECommerce"
+                },
+                "datatype": "text",
+                "dim": "[Brand.Brand]",
+                "filter": {
+                    "explicit": true,
+                    "members": [
+                        "ABC"
+                    ],
+                    "multiSelection": false,
+                    "userMultiSelect": false
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "Brand",
+                "title": "Brand"
+            }
+        }
+    ]
+}

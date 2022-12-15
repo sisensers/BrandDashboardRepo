@@ -1,0 +1,235 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "continuousDates": false,
+    "dashboardid": "6161af2cddaad4002bed391e",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aGitIAAaLQAaIAAaECommerce",
+        "fullname": "localhost/Git - ECommerce",
+        "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+        "live": false,
+        "title": "Git - ECommerce"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": false,
+        "displayFilterPane": true,
+        "displayHeaderRow": false,
+        "displayToolbarRow": false,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": false,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": true,
+        "modalWindowResize": true,
+        "resetDashFiltersAfterJTD": true,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": true
+    },
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "color": "#1F487E",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "currency": {
+                                    "position": "pre",
+                                    "symbol": "$"
+                                },
+                                "decimals": 2
+                            }
+                        },
+                        "instanceid": "C2950-2A76-C1",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Revenue",
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Revenue]",
+                            "table": "Commerce",
+                            "title": "Total Revenue"
+                        }
+                    }
+                ],
+                "name": "value"
+            },
+            {
+                "items": [
+                ],
+                "name": "secondary"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": false,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "36E9E-0DD9-30",
+                        "jaql": {
+                            "formula": "0",
+                            "title": "0 (default)"
+                        }
+                    }
+                ],
+                "name": "min"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": false,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "135E4-003E-74",
+                        "jaql": {
+                            "formula": "100",
+                            "title": "100 (default)"
+                        }
+                    }
+                ],
+                "name": "max"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "nullAsZero": false,
+    "oid": "6161bfeaddaad4002bed395c",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "disallowSelector": true,
+        "selector": false,
+        "supportsHierarchies": false,
+        "triggersDomready": true
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "components": {
+            "icon": {
+                "enabled": true,
+                "inactive": true
+            },
+            "secondaryTitle": {
+                "enabled": true,
+                "inactive": true
+            },
+            "title": {
+                "enabled": true,
+                "inactive": false
+            }
+        },
+        "indicator/gauge": {
+            "components": {
+                "labels": {
+                    "enabled": true,
+                    "inactive": false
+                },
+                "secondaryTitle": {
+                    "enabled": true,
+                    "inactive": true
+                },
+                "ticks": {
+                    "enabled": true,
+                    "inactive": false
+                },
+                "title": {
+                    "enabled": true,
+                    "inactive": false
+                }
+            },
+            "skin": "1",
+            "subtype": "round"
+        },
+        "indicator/numeric": {
+            "components": {
+                "icon": {
+                    "enabled": true,
+                    "inactive": false
+                },
+                "secondaryTitle": {
+                    "enabled": true,
+                    "inactive": true
+                },
+                "title": {
+                    "enabled": true,
+                    "inactive": false
+                }
+            },
+            "skin": "vertical",
+            "subtype": "simple"
+        },
+        "skin": "vertical",
+        "subtype": "simple"
+    },
+    "subtype": "indicator/numeric",
+    "title": "Revenue",
+    "type": "indicator"
+}

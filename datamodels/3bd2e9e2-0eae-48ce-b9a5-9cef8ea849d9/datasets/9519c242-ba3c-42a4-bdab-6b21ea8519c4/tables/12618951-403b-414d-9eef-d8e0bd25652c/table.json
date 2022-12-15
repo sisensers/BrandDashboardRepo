@@ -1,0 +1,43 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Category",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Category",
+            "oid": "13e50611-4374-4045-991e-01afbf76d585",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Category ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Category ID",
+            "oid": "4d6f7ad3-9c6d-44c9-a20c-d4a8e4256685",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "Table": "Category.csv"
+    },
+    "dataset": "9519c242-ba3c-42a4-bdab-6b21ea8519c4",
+    "hidden": false,
+    "id": "Category.csv",
+    "isMaterialized": false,
+    "name": "Category",
+    "oid": "12618951-403b-414d-9eef-d8e0bd25652c",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,267 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "continuousDates": false,
+    "dashboardid": "6161af2cddaad4002bed391e",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aGitIAAaLQAaIAAaECommerce",
+        "fullname": "localhost/Git - ECommerce",
+        "id": "localhost_aGitIAAaLQAaIAAaECommerce",
+        "live": false,
+        "title": "Git - ECommerce"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": false,
+        "displayFilterPane": true,
+        "displayHeaderRow": false,
+        "displayToolbarRow": false,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": false,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": true,
+        "modalWindowResize": true,
+        "resetDashFiltersAfterJTD": true,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": true
+    },
+    "hasExcessiveSeries": false,
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Commerce.Date (Calendar)]_years",
+                            "index": 1
+                        },
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "hierarchies": [
+                            "calendar",
+                            "calendar - weeks"
+                        ],
+                        "instanceid": "E2337-6CCE-AB",
+                        "jaql": {
+                            "column": "Date",
+                            "datatype": "datetime",
+                            "dim": "[Commerce.Date (Calendar)]",
+                            "level": "years",
+                            "merged": true,
+                            "table": "Commerce",
+                            "title": "Years in Date"
+                        }
+                    }
+                ],
+                "name": "x-axis"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "color": "#1F487E",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "9413F-FFF1-D0",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Revenue",
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Revenue]",
+                            "table": "Commerce",
+                            "title": "Total Revenue"
+                        },
+                        "statisticalModels": {
+                            "trend": {
+                                "compare": {
+                                    "isEnabled": false,
+                                    "period": "year"
+                                },
+                                "ignoreAnomalies": false,
+                                "isEnabled": true,
+                                "isViewerDisabled": false,
+                                "trendOnForecast": false,
+                                "trendType": "logarithmic"
+                            }
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "break by"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "nullAsZero": false,
+    "oid": "6161af4bddaad4002bed3921",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+            "max": 4,
+            "min": 0
+        },
+        "selector": false,
+        "selectorLocked": false,
+        "triggersDomready": true
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "dataLimits": {
+            "categoriesCapacity": 100000,
+            "seriesCapacity": 50
+        },
+        "legend": {
+            "enabled": true,
+            "position": "bottom"
+        },
+        "lineWidth": {
+            "width": "bold"
+        },
+        "markers": {
+            "enabled": false,
+            "fill": "filled",
+            "size": "small"
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "years_in_date",
+                    "plural": "Years in Date",
+                    "singular": "Years in Date",
+                    "title": "Years in Date"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "navigator": {
+            "enabled": true
+        },
+        "seriesLabels": {
+            "enabled": false,
+            "rotation": 0
+        },
+        "xAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "isIntervalEnabled": false,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "ticks": true,
+            "title": {
+                "enabled": false
+            },
+            "x2Title": {
+                "enabled": false
+            }
+        },
+        "y2Axis": {
+            "enabled": true,
+            "gridLines": false,
+            "inactive": true,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        },
+        "yAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "inactive": false,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        }
+    },
+    "subtype": "line/basic",
+    "tickLevel": "year",
+    "title": "Revenue over Time",
+    "type": "chart/line"
+}
