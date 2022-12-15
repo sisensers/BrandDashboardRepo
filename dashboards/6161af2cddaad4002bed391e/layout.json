@@ -94,27 +94,6 @@
                                 "width": 100
                             }
                         ]
-                    },
-                    {
-                        "subcells": [
-                            {
-                                "elements": [
-                                    {
-                                        "defaultWidth": 512,
-                                        "height": "400px",
-                                        "maxHeight": 2048,
-                                        "maxWidth": 2048,
-                                        "minHeight": 96,
-                                        "minWidth": 128,
-                                        "widgetid": "6161bf6eddaad4002bed3958"
-                                    }
-                                ],
-                                "index": 0,
-                                "pxlWidth": 819.844,
-                                "stretchable": false,
-                                "width": 100
-                            }
-                        ]
                     }
                 ],
                 "index": 1,
